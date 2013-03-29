@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  description: MyText
+  lower_range: 1
+  upper_range: 1
+
+two:
+  description: MyText
+  lower_range: 1
+  upper_range: 1

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  question_type: MyText
+  difficulty: 1
+  first_num: 1
+  second_num: 1
+  answer: 1
+
+two:
+  question_type: MyText
+  difficulty: 1
+  first_num: 1
+  second_num: 1
+  answer: 1

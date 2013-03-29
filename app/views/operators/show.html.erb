@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @operator.description %>
+</p>
+
+<p>
+  <b>Operator:</b>
+  <%= @operator.operator %>
+</p>
+
+<p>
+	<b>Level:</b>
+
+</p>
+
+<p>
+	<b>Edited:</b>
+	<li><%= "What is " %> <%= @oper1 %> <%= " " %> <%= @operator.operator %> <%= " " %> <%= @oper3 %> ?</li>
+	<li><%= "The answer is " %> <%= @ans %></li>
+</p>
+
+
+<%= link_to 'Edit', edit_operator_path(@operator) %> |
+<%= link_to 'Back', operators_path %>

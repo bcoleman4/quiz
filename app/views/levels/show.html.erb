@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @level.description %>
+</p>
+
+<p>
+  <b>Lower range:</b>
+  <%= @level.lower_range %>
+</p>
+
+<p>
+  <b>Upper range:</b>
+  <%= @level.upper_range %>
+</p>
+
+
+<%= link_to 'Edit', edit_level_path(@level) %> |
+<%= link_to 'Back', levels_path %>

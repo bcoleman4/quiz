@@ -1,0 +1,35 @@
+<h1>Quiz Home Page</h1>
+
+<p>
+<label><%= "Pick a question type" %></label>
+<table>
+<% @operator.each do |operator| %>
+  <tr>
+	<td>
+		<input type="radio"
+		id = <%= operator.description %>
+		name = "operatorq"
+		value =  <td><%= operator.description %></td>
+  </tr>
+<% end %>
+
+</table>
+</p>
+
+<p>
+	<%= "... and pick a difficulty "%>
+<table>
+<% @level.each do |level| %>
+  <tr>
+	<td>
+		<input type="radio"
+		id = <%= level.id %>
+		name = "levelq"
+		value = <td><%= level.description %></td>
+  </tr>
+<% end %>
+</table>
+</p>
+
+<%= link_to "Generate a question", new_question_path %>
+
